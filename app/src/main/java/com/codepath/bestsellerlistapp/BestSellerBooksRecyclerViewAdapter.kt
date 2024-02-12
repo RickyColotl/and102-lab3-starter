@@ -60,6 +60,7 @@ class BestSellerBooksRecyclerViewAdapter(
 
         Glide.with(holder.mView)
             .load(book.bookImageUrl)
+            .placeholder(R.drawable.img)
             .centerInside()
             .into(holder.mBookImg)
 
